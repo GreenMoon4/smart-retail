@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'retail',
 ]
 
 MIDDLEWARE = [
@@ -78,9 +79,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'smart_retail',
         'USER': 'postgres',
-        'PASSWORD': '',
+        'PASSWORD': '123',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5432',
     }
 }
 
