@@ -1,3 +1,6 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+
+def home_view(response):
+    return render(response, 'retail/index.html')
