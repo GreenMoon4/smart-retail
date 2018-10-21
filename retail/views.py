@@ -7,7 +7,7 @@ def home_view(response):
 
 
 def updates_view(response):
-    return HttpResponse('hello updates')
+    return render(response, 'retail/updates/index.html')
 
 
 def promos_view(response):
